@@ -39,5 +39,11 @@
     <ClCompile Include="getline, cin.getline.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="가위바위보_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="가위바위보_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -157,7 +157,12 @@
     <ClCompile Include="Ex_3-6.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Ex_3-7.cpp" />
+    <ClCompile Include="Ex_3-7.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Ex_3-8.cpp" />
+    <ClCompile Include="Ex_3-9(Answer).cpp" />
+    <ClCompile Include="Ex_3-9.cpp" />
     <ClCompile Include="생성자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

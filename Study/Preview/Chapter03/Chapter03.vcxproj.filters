@@ -45,10 +45,13 @@
     <ClCompile Include="Ex_3-8.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Ex_3-9.cpp">
+    <ClCompile Include="Ex_3-9_%282%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Ex_3-9(Answer).cpp">
+    <ClCompile Include="Ex_3-9_%281%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="접근 지정.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

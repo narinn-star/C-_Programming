@@ -48,5 +48,14 @@
     <ClCompile Include="Ex_7-10.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Ex_7-11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_7-12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_7-13.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

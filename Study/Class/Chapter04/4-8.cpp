@@ -5,7 +5,7 @@ class Circle {
 	int radius;
 public:
 	Circle() {
-
+		radius = 1;
 	}
 	void setRadius(int radius) {
 		this->radius = radius;

@@ -6,10 +6,10 @@ char& find(char s[], int index) {
 }
 
 int main() {
-	char name[] = "Mike";
+	char name[] = "mike";
 	cout << name << endl;
 
-	find(name, 0) = 'S'; // name[0] = 'S'
+	find(name, 0) = 's'; // name[0] = 's'
 	cout << name << endl;
 
 	char& ref = find(name, 2); // ref = name[2]

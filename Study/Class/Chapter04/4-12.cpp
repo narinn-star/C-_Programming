@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Circle {
@@ -39,9 +40,20 @@ public:
 		cout << "검색하고자 하는 원의 이름 >> ";
 		cin >> name;
 
+		for (int i = 0; i < size; i++) {
+			if (name == p[i].getName())
+				cout << name << "의 면적은 " << p[i].getArea() << endl;
+		}
 	}
 	void searchByArea() {
-
+		int area;
+		cout << "최소 면적을 정수로 입력하세요 >> ";
+		cin >> area;
+		cout << area << "보다 큰 원을 검색합니다." << endl;
+		for (int i = 0; i < size; i++) {
+			if (area < p[i].getArea())
+				cout << p[i].getName() << "의 면적은 " << p[i].getArea() << ", ";
+		}
 	}
 };
 

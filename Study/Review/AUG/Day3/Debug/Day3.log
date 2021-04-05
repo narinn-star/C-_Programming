@@ -1,0 +1,3 @@
+﻿  호잇.cpp
+C:\Users\이나린\Desktop\2021\Programming\C++\Study\Review\AUG\Day3\호잇.cpp(26): error C4716: 'MyIntStack::pop': 값을 반환해야 합니다.
+C:\Users\이나린\Desktop\2021\Programming\C++\Study\Review\AUG\Day3\호잇.cpp(23): error C4716: 'MyIntStack::push': 값을 반환해야 합니다.

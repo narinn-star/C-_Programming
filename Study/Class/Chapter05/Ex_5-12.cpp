@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 using namespace std;
 
@@ -15,7 +16,6 @@ public:
 		this->id = person.id;
 		int len = strlen(person.name);
 		this->name = new char[len + 1];
-		cout << "생성자 실행 전 this-> name : " << this->name << endl;
 		strcpy(this->name, person.name);
 		cout << "복사 생성자 실행. 원본 객체의 이름 " << this->name << endl;
 		cout << "사본 객체의 이름 " << person.name << endl;

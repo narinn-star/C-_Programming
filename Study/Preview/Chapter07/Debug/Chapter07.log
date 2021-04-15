@@ -1,2 +1,2 @@
-﻿  Ex_7-13.cpp
-  Chapter07.vcxproj -> C:\Users\이나린\Desktop\2021\Programming\C++\Study\Preview\Chapter07\Debug\Chapter07.exe
+﻿  7-4.cpp
+C:\Users\이나린\Desktop\2021\Programming\C++\Study\Preview\Chapter07\7-4.cpp(35,8): error C2676: 이항 '<': 'std::string'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.

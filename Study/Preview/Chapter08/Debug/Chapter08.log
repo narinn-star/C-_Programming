@@ -1,0 +1,3 @@
+﻿  Ex_8-1.cpp
+C:\Users\이나린\Desktop\2021\Programming\C++\Study\Preview\Chapter08\Ex_8-1.cpp(30,8): warning C4101: 'p' :참조되지 않은 지역 변수입니다.
+  Chapter08.vcxproj -> C:\Users\이나린\Desktop\2021\Programming\C++\Study\Preview\Chapter08\Debug\Chapter08.exe

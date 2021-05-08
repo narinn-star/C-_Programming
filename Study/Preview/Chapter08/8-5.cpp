@@ -26,22 +26,36 @@ protected:
 };
 
 class MyQueue : public BaseArray{
-	int capacity;
+	int first = 0;
+	int last = 0;
 public:
 	MyQueue(int capacity) : BaseArray(capacity) {
 
 	}
 	void enqueue(int n) {
-
+		if (last >= getCapacity()) {
+			cout << "Queue가 꽉 찼습니다." << endl;
+		}
+		else {
+			last++;
+			put(last, n);
+		}
 	}
-	void dequeue() {
-
+	int dequeue() {
+		if (last < 0) {
+			cout << "Queue가 비었습니다." << endl;
+		}
+		else {
+			++first;
+			last--;
+			return get(first);
+		}
 	}
 	int capacity() {
-		return capacity;
+		return getCapacity();
 	}
 	int length() {
-		return 
+		return last;
 	}
 };
 
